@@ -1,2 +1,2 @@
-# GB Data Engineering.
-## Основы реляционных баз данных. MySQL
+# Основы реляционных баз данных. MySQL
+## GB Data Engineering.
