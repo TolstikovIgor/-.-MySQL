@@ -12,4 +12,4 @@ flights = > cities
 | 4 | omsk | irkutsk |
 | 5 | moscow | kazan |
 
-[ссылка на практическое задание](https://docs.google.com/document/d/1lubf-FSbIjTXHtRbp9QoTlKwfyni2AjOqZz9YdfngzQ/edit#heading=h.70ejfph3hqr7)
+[ссылка на источник задания](https://docs.google.com/document/d/1lubf-FSbIjTXHtRbp9QoTlKwfyni2AjOqZz9YdfngzQ/edit#heading=h.70ejfph3hqr7)
