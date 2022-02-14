@@ -1,0 +1,19 @@
+CREATE USER foo;
+CREATE USER shop IDENTIFIED WITH sha256_password BY 'pass';
+DROP USER foo;
+RENAME USER shop TO foo;
+
+GRANT ALL ON *.* TO 'foo'@'localhost' IDENTIFIED WITH sha256_password BY 'pass';
+REVOKE ALL ON *.* FROM 'foo'@'localhost';
+
+GRANT ALL ON *.* TO foo;
+GRANT GRANT OPTION ON *.* TO foo;
+
+GRANT ALL, GRANT OPTION ON *.* TO foo;
+GRANT USAGE, SELECT ON *.* TO foo;
+
+GRANT ALL ON shop.* TO 'foo'@'localhost' IDENTIFIED WITH sha256_password BY 'pass'
+WITH MAX_CONNECTIONS_PER_HOUR 10
+     MAX_QUERIES_PER_HOUR 1000
+     MAX_UPDATES_PER_HOUR 200
+     MAX_USER_CONNECTIONS 3;
