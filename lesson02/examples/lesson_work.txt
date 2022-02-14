@@ -1,0 +1,100 @@
+SELECT "Hello world!";
+SELECT 2 + 2;
+-- SELECT 'Rubist's world';
+SELECT 'Rubist\'s world';
+SELECT "Rubist's world";
+CREATE TABLE tbl (`create` INT);
+DROP TABLE tbl;
+CREATE TABLE tbl (id INT(8));
+INSERT INTO tbl VALUES (5);
+SELECT * FROM tbl;
+
+DROP TABLE IF EXISTS tbl;
+CREATE TABLE tbl (id INT(8) ZEROFILL);
+INSERT INTO tbl VALUES (5);
+INSERT INTO tbl VALUES (500000000);
+
+DROP TABLE IF EXISTS tbl;
+CREATE TABLE tbl (price DECIMAL(8,4));
+INSERT INTO tbl VALUES (111.2);
+INSERT INTO tbl VALUES (10000.0);
+ERROR 1264 (22003): Out of range value for column 'price' at row 1
+
+DROP TABLE IF EXISTS tbl;
+CREATE TABLE tbl (
+  name CHAR(10) DEFAULT 'anonymous',
+  description VARCHAR(255)
+);
+INSERT INTO tbl VALUES(DEFAULT, 'Новый пользователь');
+SELECT * FROM tbl;
+INSERT INTO tbl (description) VALUES('Еще один пользователь');
+INSERT INTO tbl VALUES('Очень длинное имя пользователя', 'Еще один пользователь');
+
+-- Учебная база данных
+DROP TABLE IF EXISTS catalogs;
+CREATE TABLE catalogs (
+  id INT UNSIGNED,
+  name VARCHAR(255) COMMENT 'Название раздела'
+) COMMENT = 'Разделы интернет-магазина';
+
+DROP TABLE IF EXISTS users;
+CREATE TABLE users (
+  id INT UNSIGNED,
+  name VARCHAR(255) COMMENT 'Имя покупателя'
+) COMMENT = 'Покупатели';
+
+DROP TABLE IF EXISTS products;
+CREATE TABLE products (
+  id INT UNSIGNED,
+  name VARCHAR(255) COMMENT 'Название',
+  desription TEXT COMMENT 'Описание',
+  price DECIMAL (11,2) COMMENT 'Цена',
+  catalog_id INT UNSIGNED
+) COMMENT = 'Товарные позиции';
+
+DROP TABLE IF EXISTS orders;
+CREATE TABLE orders (
+  id INT UNSIGNED,
+  user_id INT UNSIGNED
+) COMMENT = 'Заказы';
+
+DROP TABLE IF EXISTS orders_products;
+CREATE TABLE orders_products (
+  id INT UNSIGNED,
+  order_id INT UNSIGNED,
+  product_id INT UNSIGNED,
+  total INT UNSIGNED DEFAULT 1 COMMENT 'Количество заказанных товарных позиций'
+) COMMENT = 'Состав заказа';
+
+DROP TABLE IF EXISTS discounts;
+CREATE TABLE discounts (
+  id INT UNSIGNED,
+  user_id INT UNSIGNED,
+  product_id INT UNSIGNED,
+  discount FLOAT UNSIGNED COMMENT 'Величина скидки от 0.0 до 1.0'
+) COMMENT = 'Скидки';
+
+DROP TABLE IF EXISTS storehouses;
+CREATE TABLE storehouses (
+  id INT UNSIGNED,
+  name VARCHAR(255) COMMENT 'Название'
+) COMMENT = 'Склады';
+
+DROP TABLE IF EXISTS storehouses_products;
+CREATE TABLE storehouses_products (
+  id INT UNSIGNED,
+  storehouse_id INT UNSIGNED,
+  product_id INT UNSIGNED,
+  value INT UNSIGNED COMMENT 'Запас товарной позиции на складе'
+) COMMENT = 'Запасы на складе';
+
+SELECT NULL;
+SELECT NULL + 2;
+CREATE TABLE tbl (id INT UNSIGNED);
+INSERT INTO tbl VALUES();
+SELECT * FROM tbl;
+ALTER TABLE tbl CHANGE id id INT UNSIGNED NOT NULL;
+ERROR 1138 (22004): Invalid use of NULL value
+TRUNCATE tbl;
+ALTER TABLE tbl CHANGE id id INT UNSIGNED NOT NULL;
+DESCRIBE tbl\G
