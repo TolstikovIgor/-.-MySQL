@@ -1,0 +1,64 @@
+-- 4. Подобрать сервис-образец для курсовой работы.
+-- В качестве курсовой работы будет выполнятся проект БД для обработки данных в облаке.
+-- По тексту ниже название вкладок подобного сайта.
+ 
+Платформа Platform
+-Обзор платформы Platform overyiw
+--Получите краткое описание платформы аналитики данных на одной странице Get a run-down on the Data analitics platform within one page
+-Визуализация данных Data visualisation
+--Создайте мощные аналитические материалы, отчеты и панели мониторинга  Create powerful insights, report, and dashboards
+-Встроенная аналитика Embedded analitics
+--Интегрируйте аналитику в свой продукт, портал или приложение Integrate analitics into into product, portal, or app
+-Маштабирование и распределение Scaling & distribution
+--Эффективное масштабирование от одной группы пользователей до тысячи Scale efficiently from one user group to thousands
+-Подготовка данных и ETL Data preparation & ETL
+--Подключайте и преобразуйте свои данные для обеспечения целостности Connect and transform your data to ensure integrity
+-Безопасность и конфидициальность Securite & privacy
+--Храните данные в безопасности при строгом соблюдении нормативных требований Keep data safe with strict regulatiry complianse
+-Для разработчиков For developer
+--Данные UI Data UI
+--Конвеер данных Data pipeline
+--API & SDK
+--MAQL
+Решения Solutions
+-Приложения SAAS SAAS aplikations
+--Встроенная аналитика
+--Data UI
+-Отрасли Industries
+--Софтверные компании Software companies
+--Электронная коммерция E-commerce
+--Финансовые услуги Financial services
+--Страховка Insurance
+-Примеры использования Use cases
+--Клиент 360 Customer 360
+--Самообслуживание клиентов Customer self-service
+--Монетизация данных Data monetization
+Цены Pricing 
+-Обзор цен Pricing overview
+-Бесплатно Free
+-Рост Growth
+Учиться Learn
+-Приступая к работе Getting started
+-Университет University
+-Сообщество Community
+-Документация Documentation
+-Поддержка Support
+Ресурсы Resources
+-Все All
+-Примеры внедрения Case studies
+-Отчеты аналитиков Analyst report 
+-Сводки Briefs
+-Электронные книги Ebooks
+-Подкасты Podcasts
+-Видео Videos
+-Вибинары Webinars
+Компания Company
+-О нас About us
+-Клиенты Customers
+-Партнеры Partners
+-Команда Team
+-Карьера Careers
+-Отдел новостей Newsroom
+-Мероприятия и вебнары Events & Webinars
+Блог Blog
+Вход Login
