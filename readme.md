@@ -9,6 +9,9 @@ ____
 
 В рамках курсового проекта разрабатывалась база данных платформы образовательного учереждения.
 
+### ER_Diagram
+![ER_Diagrama](https://github.com/TolstikovIgor/DatabaseMySQL/blob/main/course_work/ERDiagramPlatforma.png)
+
 ### Описание таблиц
 
 Для реализации её функционало было созданно 37 таблиц
@@ -50,5 +53,3 @@ ____
 36. training_inclusion хранит в себе информацию о включение в обучение
 37. trainner хранит в себе информацию о преподователях
 
-### ER_Diagram
-![ER_Diagrama](https://github.com/TolstikovIgor/DatabaseMySQL/blob/main/course_work/ERDiagramPlatforma.png)
