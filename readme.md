@@ -1,7 +1,7 @@
 # Основы реляционных баз данных. MySQL
-#### [GeekBrains Data Engineering](https://gb.ru/geek_university/data-engineer?from=nil&_ga=2.89239899.1971149010.1603818981-1214864598.1601835889)
-[сертификат](https://gb.ru/go/4SlG4x)
 
+![](logo.png)
+> #### Факультет Data Engineering
 ____
 ## Пояснительная записка к курсовому проекту
 
@@ -53,3 +53,4 @@ ____
 36. training_inclusion хранит в себе информацию о включение в обучение
 37. trainner хранит в себе информацию о преподователях
 
+[сертификат](https://gb.ru/go/4SlG4x)
