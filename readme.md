@@ -1,7 +1,7 @@
 # Основы реляционных баз данных. MySQL
 ![](logo.png)
 #### Факультет Data Engineering
-____
+___
 #### [Курсовой проект](https://github.com/TolstikovIgor/DatabaseMySQL/tree/main/course_work)
 ___
 #### [Урок 1. Установка окружения. DDL - команды](https://github.com/TolstikovIgor/DatabaseMySQL/tree/main/lesson01)
