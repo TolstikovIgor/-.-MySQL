@@ -3,6 +3,7 @@
 #### Факультет Data Engineering
 ___
 #### [Курсовой проект](https://github.com/TolstikovIgor/DatabaseMySQL/tree/main/course_work)
+Разработка база данных для платформы образовательного учереждения.
 ___
 #### [Урок 1. Установка окружения. DDL - команды](https://github.com/TolstikovIgor/DatabaseMySQL/tree/main/lesson01)
 Типы баз данных
