@@ -5,7 +5,7 @@
 В рамках курсового проекта разрабатывалась база для платформы образовательного учреждения.
 
 #### ER_Diagram
-![ER_Diagrama](https://github.com/TolstikovIgor/DatabaseMySQL/blob/main/course_work/ERDiagramPlatforma.png)
+![ER_Diagrama](ERDiagramPlatforma.png)
 
 #### Описание таблиц
 
